@@ -40,7 +40,7 @@ nav li a{
 }
 
 #banner-section{
-    background-image: url('/assets/hero-bg.png');
+    background-image: url('../assets/hero-bg.png');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
