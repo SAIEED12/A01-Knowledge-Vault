@@ -32,6 +32,7 @@ nav li a{
     border-style: none;
     border-radius: 5px;
     font-size: 16px;
+    cursor: pointer;
 }
 .nav-btn:hover{
     background-color: transparent;
@@ -102,6 +103,7 @@ nav li a{
     background-color:#3e9b64;
     border-style: none;
     border-radius: 5px;
+    cursor: pointer;
 }
 .hero-btn1:hover{
     background-color:transparent;
@@ -120,6 +122,7 @@ nav li a{
     display: inline-flex;
     align-items: center;
     gap: 10px;
+    cursor: pointer;
 }
 
 .hero-btn2:hover{
@@ -250,4 +253,44 @@ li{
     background-color:#001931;
     color: #ffffff;
     border-style: none;
+}
+
+footer{
+    background-color: #001931;
+    padding: 120px;
+}
+
+.footer-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-contents{
+    text-align: right;
+}
+.icons {
+    display: flex;
+    gap: 12px;
+}
+
+.footer-contents h4{
+    color: #FFFFFF;
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom: 16px;
+    line-height: 28px
+}
+
+.line{
+    margin-top: 100px;
+    opacity: 20%;
+}
+
+.copyright{
+    color: #FAFAFA;
+    line-height: 24px;
+    font-size: 14px;
+    text-align: center;
+    margin-top: 30px;
 }
